@@ -1,28 +1,37 @@
 html,
 body {
-    margin: 0;
-    padding: 0;
-    text-align: center;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: rgb(22, 22, 22);
 }
 
 nav {
-    background-color: lightseagreen;
-    width: 100%;
-    padding: 10px;
+  background-color: lightseagreen;
+  width: 100%;
+  padding: 10px;
 }
 
 nav h2 {
-    color: white;
+  color: white;
 }
 
 main {
-    margin: 0 20%;
+  margin: 0 20%;
 }
 
 main p {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 main h2 {
-    color: lightseagreen;
+  color: lightseagreen;
+}
+
+#pigeonvid {
+  border-radius: 15px;
+}
+
+#dogvid {
+  border-radius: 15px;
 }

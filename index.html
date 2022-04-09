@@ -23,7 +23,7 @@
           some reasons.
         </p>
 
-        <video width="400" controls>
+        <video id="dogvid" width="400" controls>
           <source src="./assets/videos/dog-video.mp4" type="video/mp4" />
           <track
             src="./assets/text-tracks/dog-video.vtt"
@@ -48,7 +48,7 @@
           your own dialog!
         </p>
         <!-- TODO: Put the pigeons in love MP4 video here-->
-        <video width="400" controls>
+        <video id="pigeonvid" width="400" controls>
           <source src="./assets/videos/pigeons-in-love.mp4" type="video/mp4" />
           <track
             src="./assets/text-tracks/pigeons-in-love-english.vtt"
@@ -61,6 +61,12 @@
             kind="subtitles"
             srclang="fr"
             label="Le French Subs"
+          />
+          <track
+            src="./assets/text-tracks/pigeons-in-love-it.vtt"
+            kind="subtitles"
+            srclang="it"
+            label="Spaghetti Subs"
           />
         </video>
         <!-- This video should have controls and two track tags (for example, for English AND French subtitles) -->
